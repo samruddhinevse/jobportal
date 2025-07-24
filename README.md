@@ -1,12 +1,44 @@
-# React + Vite
+# Job Portal Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack job portal application built using modern web technologies, offering role-based functionality for both candidates and recruiters. The platform enables recruiters to post job listings and candidates to browse and apply for opportunities.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+This is an ongoing full-stack job portal designed to simplify the recruitment process by connecting job seekers and recruiters on a unified platform.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+| Technology      | Description                                 |
+|------------------|---------------------------------------------|
+| **React.js**      | Frontend framework for building UI          |
+| **Tailwind CSS**  | Utility-first CSS framework for styling     |
+| **Supabase**      | Backend-as-a-Service: Database & Auth       |
+| **Clerk**         | User authentication and role management     |
+| **Shadcn UI**     | Accessible, customizable UI component library |
+| **Vite**          | Fast build tool and dev server              |
+
+---
+
+## 🎯 Features
+
+- **User Authentication**  
+  Secure sign-up, login, and session management using Clerk.
+
+- **Role-Based Navigation**  
+  Dynamic redirection based on user role (Candidate or Recruiter).
+
+- **Post & Browse Jobs**  
+  Recruiters can post job listings; candidates can view and apply.
+
+- **Clean, Responsive Interface**  
+  Fully responsive layout designed with Tailwind and Shadcn UI components.
+
+- **Real-Time Data**  
+  Job postings and applications are stored and retrieved in real-time using Supabase.
+
+---
+
