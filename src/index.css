@@ -110,6 +110,14 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+.wmde-markdown ul {
+  list-style-type: disc ;
+  padding-left: 25px ;
+  color: white ;
+}
+.wmde-markdown {
+  background-color: transparent ;
+}
 
 @layer base {
   * {
@@ -128,3 +136,4 @@
     @apply bg-gradient-to-br from-gray-500 via-gray-200 to-white text-transparent bg-clip-text;
   }
 }
+
