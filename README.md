@@ -41,4 +41,21 @@ This is an ongoing full-stack job portal designed to simplify the recruitment pr
   Job postings and applications are stored and retrieved in real-time using Supabase.
 
 ---
+### ✨ Login Page
+![Login Page](./screenshots/loginpage.png)
+
+### ✨ Landing Page
+![Login Page](./screenshots/landing.png)
+
+### ✨ Job Listing Page
+![Login Page](./screenshots/jobs.png)
+
+### ✨ Job Posting Page
+![Login Page](./screenshots/postjob.png)
+
+### ✨ Job Apply Page
+![Login Page](./screenshots/apply.png)
+
+### ✨ Applications Page
+![Login Page](./screenshots/applications.png)
 
